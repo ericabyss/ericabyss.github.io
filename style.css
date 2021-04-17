@@ -13,6 +13,15 @@
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
+  --color-rose: #d18063;
+  --color-babyviolet:#c9cbe0;
+  --color-lilac:#deb3cf;
+  --color-violet:#b57fb3;
+  --color-brown:#917b56;
+  --color-babyblue: #bfc8d7;
+  --color-ivory:#e8e7d2;
+  --color-mudgreen:#d2d5b8;
+  --color-mudred:#c9ba9b;
 
   /* Font size */
   --font-large: 48px;
@@ -150,7 +159,7 @@ p {
 
 /* Home */
 #home {
-  background: url(imgs/homebackground.png) center/cover no-repeat;
+  background: url(imgs/hbg.jpg) center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -179,7 +188,7 @@ p {
 }
 
 .home__contact:hover {
-  background-color: var(--color-orange);
+  background-color: var(--color-rose);
 }
 
 /* Section common */
@@ -465,7 +474,7 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: var(--color-lilac);
 }
 
 .contact__title,
